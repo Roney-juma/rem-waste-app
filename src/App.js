@@ -105,30 +105,6 @@ const App = () => {
             colours may vary, options and/or accessories may be featured at additional cost.
           </p>
         </div>
-
-        {selectedSkip && (
-          <div className="fixed bottom-0 left-0 right-0 bg-gray-800 border-t border-gray-700 p-6">
-            <div className="max-w-7xl mx-auto flex items-center justify-between">
-              <div className="flex items-center gap-4">
-                <span className="text-white font-medium">{selectedSkip.size} Yard Skip</span>
-                <span className="text-blue-400 text-2xl font-bold">
-                  £{calculateTotalPrice(selectedSkip.price_before_vat, selectedSkip.vat)}
-                </span>
-                <span className="text-gray-400">{selectedSkip.hire_period_days} day hire</span>
-              </div>
-
-              <div className="flex items-center gap-4">
-                <button className="flex items-center gap-2 px-6 py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-colors">
-                  <ArrowLeft className="w-4 h-4" />
-                  Back
-                </button>
-                <button className="flex items-center gap-2 px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold">
-                  Continue <ArrowRight className="w-4 h-4" />
-                </button>
-              </div>
-            </div>
-          </div>
-        )}
       </div>
     </div>
   );
