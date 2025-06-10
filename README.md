@@ -54,7 +54,7 @@ Before running this application, make sure you have:
    
    Add your API keys to `.env.local`:
    ```env
-   WASTEAPI = 'https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft'
+   REACT_APP_REMWASTE_API_BASE_URL = 'https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft'
    ```
 
 4. **Start the development server**
@@ -93,53 +93,6 @@ rem-waste-app/
 ├── package.json
 ├── README.md
 └── .env.example
-```
-
-## 🎯 Usage
-
-### Basic Location Tracking
-
-```jsx
-import { useGeolocation } from './hooks/useGeolocation';
-
-function LocationComponent() {
-  const { location, error, loading } = useGeolocation();
-  
-  return (
-    <div>
-      {loading && <p>Getting your location...</p>}
-      {error && <p>Error: {error.message}</p>}
-      {location && (
-        <p>
-          Lat: {location.latitude}, Lng: {location.longitude}
-        </p>
-      )}
-    </div>
-  );
-}
-```
-
-### Skip Location Functionality
-
-```jsx
-import { useSkipLocation } from './hooks/useSkipLocation';
-
-function SkipLocationComponent() {
-  const { skipLocation, canSkip, skipCount } = useSkipLocation();
-  
-  const handleSkip = () => {
-    skipLocation('User requested skip');
-  };
-  
-  return (
-    <button 
-      onClick={handleSkip} 
-      disabled={!canSkip}
-    >
-      Skip Location ({skipCount} skips remaining)
-    </button>
-  );
-}
 ```
 
 ## 🧪 Testing
@@ -193,10 +146,7 @@ npm run deploy
 
 | Variable | Description | Required |
 |----------|-------------|----------|
-| `REACT_APP_GOOGLE_MAPS_API_KEY` | Google Maps API key | Yes |
-| `REACT_APP_MAPBOX_TOKEN` | Mapbox access token | Optional |
-| `REACT_APP_API_BASE_URL` | Backend API URL | Yes |
-| `REACT_APP_SKIP_LIMIT` | Maximum skips per session | No |
+| `REACT_APP_REMWASTE_API_BASE_URL` | Backend API URL | Yes |
 
 ## 📱 Browser Support
 

@@ -22,7 +22,11 @@ const App = () => {
   const fetchSkips = async () => {
     try {
       setLoading(true);
-      const response = await fetch('https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft');
+      console.log('Fetching skips from API...,', process.env.REACT_APP_REMWASTE_API_BASE_URL);
+      if (!process.env.REACT_APP_REMWASTE_API_BASE_URL) {
+        throw new Error('API base URL is not defined');
+      }
+      const response = await fetch(`${process.env.REACT_APP_REMWASTE_API_BASE_URL}/api/skips/by-location?postcode=NR32&area=Lowestoft`);
       const data = await response.json();
       setSkips(data);
     } catch (err) {
