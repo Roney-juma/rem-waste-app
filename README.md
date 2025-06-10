@@ -1,6 +1,6 @@
 # Skip React Test
 
-A modern React application for REMwaste Test Inetrview with skip functionality, built with performance and user experience in mind.
+A modern React application for REMWaste Test Ineterview with skip functionality, built with performance and user experience in mind.
 
 ## 🚀 Features
 
@@ -174,3 +174,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Roney Juma** - *Initial work* - [Roney-Juma](https://github.com/Roney-juma)
 
+## Live Demo
+
+- Live demo: https://orange-computing-machine-p6jwg6rv54729464-3000.app.github.dev/
+- Note: If the link is inactive, please go to https://orange-computing-machine-p6jwg6rv54729464.github.dev/ and run npm start to restart the app.
