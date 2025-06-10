@@ -101,14 +101,6 @@ const App = () => {
         {showOverlay && selectedSkip && (
          <SkipOverlay showOverlay={showOverlay} selectedSkip={selectedSkip} confirmSelection={confirmSelection} closeOverlay={closeOverlay}/>
         )}
-
-        {/* Disclaimer */}
-        <div className="text-center mb-12">
-          <p className="text-gray-500 text-sm max-w-4xl mx-auto">
-            Imagery and information shown throughout this website may not reflect the exact shape or size specification,
-            colours may vary, options and/or accessories may be featured at additional cost.
-          </p>
-        </div>
       </div>
     </div>
   );
