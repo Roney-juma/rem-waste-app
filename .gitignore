@@ -12,6 +12,9 @@
 /build
 
 # misc
+/.cache
+/.next
+.env
 .DS_Store
 .env.local
 .env.development.local
