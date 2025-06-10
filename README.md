@@ -72,36 +72,19 @@ Before running this application, make sure you have:
 ## 🏗️ Project Structure
 
 ```
-skip-location-react-app/
+rem-waste-app/
 ├── public/
 │   ├── index.html
 │   ├── favicon.ico
 │   └── manifest.json
 ├── src/
 │   ├── components/
-│   │   ├── Map/
-│   │   │   ├── MapContainer.jsx
-│   │   │   ├── LocationMarker.jsx
-│   │   │   └── SkipButton.jsx
-│   │   ├── Location/
-│   │   │   ├── LocationList.jsx
-│   │   │   ├── LocationCard.jsx
-│   │   │   └── LocationForm.jsx
-│   │   └── UI/
-│   │       ├── Button.jsx
-│   │       ├── Modal.jsx
-│   │       └── LoadingSpinner.jsx
-│   ├── hooks/
-│   │   ├── useGeolocation.js
-│   │   ├── useSkipLocation.js
-│   │   └── useLocalStorage.js
-│   ├── services/
-│   │   ├── locationService.js
-│   │   ├── mapService.js
-│   │   └── apiClient.js
+│   │   │   ├── ErrorScreen.jsx
+│   │   │   ├── LoadingScreen.jsx
+│   │   │   └── ProgressSteps.jsx
+|   |   |   ├── SkipCard.jsx
+|   |   |   ├── SkipOverlay.jsx
 │   ├── utils/
-│   │   ├── locationUtils.js
-│   │   ├── constants.js
 │   │   └── helpers.js
 │   ├── styles/
 │   │   ├── globals.css
