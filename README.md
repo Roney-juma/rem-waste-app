@@ -1,12 +1,9 @@
-# Skip Location React Test
+# Skip React Test
 
-A modern React application for location-based services with skip functionality, built with performance and user experience in mind.
+A modern React application for REMwaste Test Inetrview with skip functionality, built with performance and user experience in mind.
 
 ## 🚀 Features
 
-- **Location Services**: Real-time location tracking and management
-- **Skip Functionality**: Smart location skipping with customizable criteria
-- **Interactive Maps**: Dynamic map integration with location markers
 - **Responsive Design**: Mobile-first approach with cross-device compatibility
 - **Real-time Updates**: Live location updates and notifications
 - **User Preferences**: Customizable location settings and skip preferences
@@ -16,10 +13,8 @@ A modern React application for location-based services with skip functionality, 
 
 - **Frontend**: React 18+ with modern hooks
 - **Styling**: CSS3 / Styled Components / Tailwind CSS
-- **Maps**: Google Maps API / Mapbox / Leaflet
-- **Location Services**: Geolocation API / GPS tracking
 - **State Management**: React Context / Redux Toolkit
-- **HTTP Client**: Axios / Fetch API
+- **HTTP Client**: Axios API
 - **Build Tool**: Vite / Create React App
 - **Testing**: Jest + React Testing Library
 
@@ -54,7 +49,7 @@ Before running this application, make sure you have:
    
    Add your API keys to `.env.local`:
    ```env
-   REACT_APP_REMWASTE_API_BASE_URL = 'https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft'
+   REACT_APP_REMWASTE_API_BASE_URL = 'https://app.wewantwaste.co.uk'
    ```
 
 4. **Start the development server**
@@ -110,7 +105,7 @@ npm test -- --watch
 npm test -- --coverage
 
 # Run specific test file
-npm test LocationComponent.test.js
+npm test StupTests.js
 ```
 
 ## 🚀 Deployment
@@ -121,11 +116,6 @@ npm test LocationComponent.test.js
 npm run build
 ```
 
-### Deploy to Netlify
-
-1. Build the project: `npm run build`
-2. Deploy the `build` folder to Netlify
-3. Set environment variables in Netlify dashboard
 
 ### Deploy to Vercel
 
@@ -156,20 +146,6 @@ npm run deploy
 - Edge 16+
 - Mobile browsers with geolocation support
 
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Location not working:**
-- Ensure HTTPS is enabled (required for geolocation)
-- Check browser permissions for location access
-- Verify API keys are correctly configured
-
-**Map not loading:**
-- Verify API keys in environment variables
-- Check network connectivity
-- Ensure proper CORS configuration
-
 **Build errors:**
 - Clear node_modules: `rm -rf node_modules && npm install`
 - Check Node.js version compatibility
@@ -196,16 +172,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Roney Juma** - *Initial work* - [Roney-Juma](https://github.com/Roney-juma)
 
-## 🙏 Acknowledgments
-
-- Google Maps API for location services
-- React community for excellent documentation
-- Contributors and testers
-
-## 📚 Additional Resources
-
-- [React Documentation](https://reactjs.org/docs)
-- [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript)
-- [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
