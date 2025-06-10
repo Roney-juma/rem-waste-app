@@ -172,7 +172,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Roney Juma** - *Initial work* - [Roney-Juma](https://github.com/Roney-juma)
+- **Roney Juma** - [Roney-Juma](https://github.com/Roney-juma)
 
 ## Live Demo
 
