@@ -27,7 +27,7 @@ A modern React application for location-based services with skip functionality, 
 
 Before running this application, make sure you have:
 
-- Node.js (version 16.0 or higher)
+- Node.js (version 18.0 or higher)
 - npm or yarn package manager
 - Modern web browser with geolocation support
 - API keys for map services (Google Maps/Mapbox)
@@ -54,9 +54,7 @@ Before running this application, make sure you have:
    
    Add your API keys to `.env.local`:
    ```env
-   REACT_APP_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
-   REACT_APP_MAPBOX_TOKEN=your_mapbox_token
-   REACT_APP_API_BASE_URL=http://localhost:3001
+   WASTEAPI = 'https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft'
    ```
 
 4. **Start the development server**
