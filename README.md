@@ -174,3 +174,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Roney Juma** - *Initial work* - [Roney-Juma](https://github.com/Roney-juma)
 
+## Live Demo
+
+- Live demo: https://orange-computing-machine-p6jwg6rv54729464-3000.app.github.dev/
+Note: This runs on GitHub Codespaces and may take a moment to wake up if inactive.
