@@ -5,9 +5,6 @@ A React application for REMWaste Test Interview with skip functionality, built w
 ## 🚀 Features
 
 - **Responsive Design**: Mobile-first approach with cross-device compatibility
-- **Real-time Updates**: Live location updates and notifications
-- **User Preferences**: Customizable location settings and skip preferences
-- **Offline Support**: Basic functionality available without internet connection
 
 ## 🛠️ Tech Stack
 
