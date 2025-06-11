@@ -1,6 +1,6 @@
 # Skip React Test
 
-A modern React application for REMWaste Test Ineterview with skip functionality, built with performance and user experience in mind.
+A React application for REMWaste Test Interview with skip functionality, built with performance and user experience in mind.
 
 ## 🚀 Features
 
